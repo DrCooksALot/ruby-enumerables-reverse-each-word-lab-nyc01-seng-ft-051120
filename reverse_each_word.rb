@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   sentence_array.each { |word|
     reveresed_word = []
     word_array = word.split("")
-    word_array.collect { |letter|
+    word_array.each { |letter|
       reveresed_word.unshift(letter)
     }
     reveresed_sentence.push(reveresed_word)
