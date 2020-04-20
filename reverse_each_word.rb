@@ -14,4 +14,5 @@ def reverse_each_word(sentence)
     word.join
     
   }
+  return_sentence
 end
