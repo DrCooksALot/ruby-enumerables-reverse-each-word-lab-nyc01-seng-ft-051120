@@ -10,8 +10,6 @@ def reverse_each_word(sentence)
     }
     reveresed_sentence.push(reveresed_word)
   }
-  reveresed_sentence.map { |word|
-    word.join
-  }
+  return_sentence = []
   reveresed_sentence.
 end
