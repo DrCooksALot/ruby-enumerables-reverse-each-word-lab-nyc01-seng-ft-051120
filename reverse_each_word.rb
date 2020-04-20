@@ -13,5 +13,5 @@ def reverse_each_word(sentence)
   reveresed_sentence.map { |word|
     word.join
   }
-  p reveresed_sentence
+  reveresed_sentence.
 end
